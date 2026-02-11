@@ -1,0 +1,13 @@
+Package: montyhall
+Title: Best Strategy to the Monty Hall Problem Game
+Version: 0.0.0.9000
+Authors@R: 
+    person("Jennifer", "Hernandez", email = "jennifer.hernandez@nau.edu", role = c("aut", "cre"))
+Description: The game setup replicates the game on the TV show "Let's Make a Deal" where there are three doors for a contestant to choose from, one of which has a car behind it and two have goats. The contestant selects a door, then the host opens a door to reveal a goat, and then the contestant is given an opportunity to stay with their original selection or switch to the other unopened door. There was a famous debate about whether it was optimal to stay or switch when given the option to switch. This also includes a simulation to play game, n times, to see which strategy is best. 
+Depends:
+    dplyr
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
